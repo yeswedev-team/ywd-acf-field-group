@@ -1,0 +1,9 @@
+{
+    "autoload" : {
+        "psr-4" : {
+            "YwdAcfFieldsGroup\\": "./",
+            "YwdAcfFieldsGroup\\CustomField\\": "CustomField",
+            "YwdAcfFieldsGroup\\FieldsGroup\\": "FieldsGroup"
+        }
+    }
+}
