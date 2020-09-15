@@ -4,6 +4,12 @@
     "require": {
         "php": ">=7.2"
     },
+    "keywords": [
+        "wordpress",
+        "wordplate",
+        "acf"
+    ],
+    "license": "MIT",
     "autoload" : {
         "psr-4" : {
             "YwdAcfFieldsGroup\\": "./",
