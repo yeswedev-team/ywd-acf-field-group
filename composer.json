@@ -1,16 +1,4 @@
 {
-    "name": "yeswedev/ywd-acf-field-group",
-    "description": "Blank WordPress plugin for Wordplate/ACF-extended",
-    "type": "wordpress-plugin",
-    "require": {
-        "php": ">=7.2"
-    },
-    "keywords": [
-        "wordpress",
-        "wordplate",
-        "acf"
-    ],
-    "license": "MIT",
     "autoload" : {
         "psr-4" : {
             "YwdAcfFieldsGroup\\": "./",
