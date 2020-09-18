@@ -4,6 +4,7 @@ Blank WordPress plugin for [Wordplate/ACF-extended](https://github.com/wordplate
 ## Instalation and usage
 
 Download the plugin and place it in the `plugins` folder of your project.
+
 Follow the files of this plugin with git (example: for Bedrock, add `!web/app/plugins/ywd-acf-field-group` to the root `.gitignore`).
 Then activate the plugin in the way that works best for you.
 
