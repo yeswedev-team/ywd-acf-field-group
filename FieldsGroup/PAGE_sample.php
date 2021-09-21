@@ -7,10 +7,10 @@ if( ! defined( 'ABSPATH' ) ) {
 }
 
 use YwdAcfFieldsGroup\SingletonInit;
-use YwdAcfFieldsGroup\CustomField\SimpleWysiwyg;
 
 use WordPlate\Acf\Location;
 use WordPlate\Acf\Fields\Text;
+use YwdAcfFieldsGroup\CustomField\BlockSEO;
 
 /**
  * Create a new class for each fields group
@@ -25,7 +25,7 @@ class PAGE_sample extends SingletonInit {
 			],
 			'fields' => [
 				Text::make('Title', 'title'),
-				SimpleWysiwyg::make('Content', 'contenu')
+				BlockSEO::make('Block SEO', 'home_seo_block')
 			]
 		]);
 	}

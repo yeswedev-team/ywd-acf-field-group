@@ -14,4 +14,4 @@ No graphical interface in BO, everything happens in your favorite IDE.
 
 For the creation of new fields groups, base you on the example given by `FieldsGroup/PAGE_sample.php`, then launch the static method `init()` in the file `ywd-acf-fields-group.php`.
 
-In the CustomField folder, you can create reusable custom fields. Use the example provided.
+In the CustomField folder, you can create reusable custom fields. Use the examples provided.
