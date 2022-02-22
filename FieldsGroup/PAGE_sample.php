@@ -21,7 +21,7 @@ class PAGE_sample extends SingletonInit {
 		register_extended_field_group([
 			'title' => 'Fields group title',
 			'location' => [
-				Location::if('page', '2')
+				Location::where('page', '2')
 			],
 			'fields' => [
 				Text::make('Title', 'title'),
