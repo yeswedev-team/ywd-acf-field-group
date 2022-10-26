@@ -6,7 +6,7 @@
 
 use YwdAcfFieldsGroup\FieldsGroup\{PAGE_sample};
 
-if (!function_exists('register_extended_field_group')) {
+if (!function_exists('register_field_group') || !function_exists('register_extended_field_group')) {
 	return;
 }
 
