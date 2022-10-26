@@ -4,8 +4,10 @@ namespace YwdAcfFieldsGroup\CustomField;
 
 use WordPlate\Acf\Fields\{Field, Group, Text, Image, Link};
 
-class BlockSEO extends Group {
-	public static function make(string $label, ?string $name = null): Field {
+class BlockSEO extends Group
+{
+	public static function make(string $label, ?string $name = null): Field
+	{
 		$field = new static($label, $name);
 		$field->fields([
 			Text::make('Titre', 'seo_title'),
